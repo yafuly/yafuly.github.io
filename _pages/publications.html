@@ -12,6 +12,7 @@ author_profile: true
 <style>
   .publication-list { margin-top: 1.5rem; }
   .publication-entry { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; margin: 1.5rem 0; align-items: start; }
+  .publication-entry.no-thumbnail { grid-template-columns: 1fr; }
   .publication-entry img { width: 150px; max-width: 100%; border-radius: 4px; }
   .publication-entry h3 { margin: 0 0 .35rem; font-size: 1.05rem; line-height: 1.3; }
   .publication-entry p { margin: .25rem 0; }
@@ -24,6 +25,16 @@ author_profile: true
 
 <h2>Reasoning and RL</h2>
 <div class="publication-list">
+  <div class="publication-entry no-thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2605.13301">Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling</a></h3>
+      <p><strong>Yafu Li</strong>, Runzhe Zhan, Haoran Zhang, Shunkai Zhang, Yizhuo Li, Zhilin Wang, Jiacheng Chen, Futing Wang, Xuyang Hu, Yuchen Fan, Bangjie Xu, Yucheng Su, Xinmiao Han, Chenxi Li, Haodi Lei, Yufeng Zhao, Zejin Lin, Qianjia Cheng, Tong Zhu, Xiaoye Qu, Ganqu Cui, Peng Ye, Yun Luo, Zhouchen Lin, Yu Qiao, Bowen Zhou, Ning Ding, Yu Cheng</p>
+      <p><em>Technical Report, 2026</em></p>
+      <p class="publication-links"><a href="https://arxiv.org/abs/2605.13301">Paper</a></p>
+      <p>A simple and unified recipe for converting a post-trained reasoning backbone into an olympiad-level solver.</p>
+    </div>
+  </div>
+
   <div class="publication-entry">
     <img src="/images/tpo.png" alt="Test-Time Preference Optimization thumbnail">
     <div>
@@ -80,26 +91,27 @@ author_profile: true
   </div>
 
   <div class="publication-entry">
-    <img src="/images/efficient_lrm_survey.png" alt="Efficient reasoning survey thumbnail">
-    <div>
-      <h3><a href="https://arxiv.org/abs/2503.21614">A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond</a></h3>
-      <p>Xiaoye Qu<sup>*†</sup>, <strong>Yafu Li</strong><sup>*†</sup>, Zhaochen Su, Weigao Sun, Jianhao Yan, Dongrui Liu, Ganqu Cui, Daizong Liu, Shuxian Liang, Junxian He, Peng Li, Wei Wei, Jing Shao, Chaochao Lu, Yue Zhang, Xian-Sheng Hua, Bowen Zhou, Yu Cheng</p>
-      <p><em>preprint</em></p>
-      <p class="publication-links"><a href="https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning">Code</a><a href="https://arxiv.org/abs/2503.21614">Paper</a></p>
-      <p>A survey of efficient reasoning for large reasoning models.</p>
-    </div>
-  </div>
-
-  <div class="publication-entry">
     <img src="/images/trm.png" alt="Complex reasoning framework thumbnail">
     <div>
       <h3><a href="https://www.arxiv.org/abs/2602.08498">Characterizing, Evaluating, and Optimizing Complex Reasoning</a></h3>
       <p>Haoran Zhang, <strong>Yafu Li</strong><sup>†</sup>, Zhi Wang, Zhilin Wang, Shunkai Zhang, Xiaoye Qu, Yu Cheng</p>
-      <p><em>preprint</em></p>
+      <p><em>ICML 2026</em></p>
       <p class="publication-links"><a href="https://github.com/zzzhr97/TRM">Code</a><a href="https://www.arxiv.org/abs/2602.08498">Paper</a></p>
       <p>A framework for robust and scalable evaluation for complex reasoning.</p>
     </div>
   </div>
+
+  <div class="publication-list">
+    <div class="publication-entry">
+      <img src="/images/specbench.jpg" alt="Specification alignment thumbnail">
+      <div>
+        <h3><a href="https://arxiv.org/abs/2509.14760">Reasoning over Boundaries: Enhancing Specification Alignment via Test-time Deliberation</a></h3>
+        <p>Haoran Zhang, <strong>Yafu Li</strong><sup>†</sup>, Xuyang Hu, Dongrui Liu, Zhilin Wang, Bo Li, Yu Cheng</p>
+        <p><em>ICML 2026</em></p>
+        <p class="publication-links"><a href="https://github.com/zzzhr97/SpecBench">Code</a><a href="https://arxiv.org/abs/2509.14760">Paper</a></p>
+        <p>Reasoning over safety and behavioral boundaries before answering.</p>
+      </div>
+    </div>
 
   <div class="publication-entry">
     <img src="/images/mathif.jpg" alt="Instruction following in reasoning models thumbnail">
@@ -111,6 +123,19 @@ author_profile: true
       <p>A tension between scaling up reasoning capacity and maintaining controllability.</p>
     </div>
   </div>
+
+  <div class="publication-entry">
+    <img src="/images/efficient_lrm_survey.png" alt="Efficient reasoning survey thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2503.21614">A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond</a></h3>
+      <p>Xiaoye Qu<sup>*†</sup>, <strong>Yafu Li</strong><sup>*†</sup>, Zhaochen Su, Weigao Sun, Jianhao Yan, Dongrui Liu, Ganqu Cui, Daizong Liu, Shuxian Liang, Junxian He, Peng Li, Wei Wei, Jing Shao, Chaochao Lu, Yue Zhang, Xian-Sheng Hua, Bowen Zhou, Yu Cheng</p>
+      <p><em>preprint</em></p>
+      <p class="publication-links"><a href="https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning">Code</a><a href="https://arxiv.org/abs/2503.21614">Paper</a></p>
+      <p>A survey of efficient reasoning for large reasoning models.</p>
+    </div>
+  </div>
+
+
 
   <div class="publication-entry">
     <img src="/images/aft.jpg" alt="Aggregation Fine-Tuning thumbnail">
@@ -136,17 +161,6 @@ author_profile: true
 </div>
 
 <h2>Trustworthy AI</h2>
-<div class="publication-list">
-  <div class="publication-entry">
-    <img src="/images/specbench.jpg" alt="Specification alignment thumbnail">
-    <div>
-      <h3><a href="https://arxiv.org/abs/2509.14760">Reasoning over Boundaries: Enhancing Specification Alignment via Test-time Deliberation</a></h3>
-      <p>Haoran Zhang, <strong>Yafu Li</strong><sup>†</sup>, Xuyang Hu, Dongrui Liu, Zhilin Wang, Bo Li, Yu Cheng</p>
-      <p><em>preprint</em></p>
-      <p class="publication-links"><a href="https://github.com/zzzhr97/SpecBench">Code</a><a href="https://arxiv.org/abs/2509.14760">Paper</a></p>
-      <p>Reasoning over safety and behavioral boundaries before answering.</p>
-    </div>
-  </div>
 
   <div class="publication-entry">
     <img src="/images/unveil.jpg" alt="Attractor cycles in LLMs thumbnail">

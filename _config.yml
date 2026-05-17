@@ -23,7 +23,7 @@ repository               : "yafuly/yafuly.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "self2.jpg"
+  avatar           : "yafu-li.jpg"
   name             : "Yafu Li"
   pronouns         : # example: "she/her"  
   bio              : "Postdoctoral Researcher at The Chinese University of Hong Kong and Researcher at Shanghai AI Laboratory"
