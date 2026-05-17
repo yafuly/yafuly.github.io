@@ -9,7 +9,8 @@ redirect_from:
 
 I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling:
 
-<div style="margin-left: 2em;">
+
+<div style="margin-left: 2.5em;" markdown="1">
 
 **◆ System**: [SU-01 (Technical Report, 2026)](https://simplified-reasoning.github.io/SU-01)
 
@@ -22,6 +23,7 @@ I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working w
 **◆ Evaluation**: [SpecBench (ICML 2026)](https://arxiv.org/abs/2509.14760); [MathIF (ACL 2026)](https://arxiv.org/abs/2505.14810)
 
 </div>
+
 
 I received my Ph.D. in Computer Science through a joint program between Zhejiang University and Westlake University, advised by [Prof. Yue Zhang](https://frcchang.github.io/). Prior to that, I earned my M.Sc. in Artificial Intelligence from the University of Edinburgh under the supervision of [Prof. Alex Lascarides](https://homepages.inf.ed.ac.uk/alex/), and my B.Eng. from Wuhan University. During my Ph.D., I interned at Tencent AI Lab, working on natural language generation and trustworthy AI. I also previously worked at Huawei Noah's Ark Lab, developing neural machine translation systems for cloud and edge deployment.
 
