@@ -20,7 +20,8 @@ I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working w
 **◆ Test-Time Scaling**: [TPO (ICML 2025)](https://arxiv.org/abs/2501.12895); [AFT (ACL 2026)](https://arxiv.org/abs/2501.11877); [MoSA (ACL 2026)](https://arxiv.org/abs/2502.18873)
 
 **◆ Evaluation**: [SpecBench (ICML 2026)](https://arxiv.org/abs/2509.14760); [MathIF (ACL 2026)](https://arxiv.org/abs/2505.14810)
-  </div>
+
+</div>
 
 I received my Ph.D. in Computer Science through a joint program between Zhejiang University and Westlake University, advised by [Prof. Yue Zhang](https://frcchang.github.io/). Prior to that, I earned my M.Sc. in Artificial Intelligence from the University of Edinburgh under the supervision of [Prof. Alex Lascarides](https://homepages.inf.ed.ac.uk/alex/), and my B.Eng. from Wuhan University. During my Ph.D., I interned at Tencent AI Lab, working on natural language generation and trustworthy AI. I also previously worked at Huawei Noah's Ark Lab, developing neural machine translation systems for cloud and edge deployment.
 
