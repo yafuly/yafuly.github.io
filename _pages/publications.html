@@ -1,0 +1,230 @@
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>You can also find my articles on <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&user=gEceD-sAAAAJ">Google Scholar</a>. <code>*</code> denotes equal contribution and <code>†</code> denotes project lead or corresponding author.</p>
+
+<style>
+  .publication-list { margin-top: 1.5rem; }
+  .publication-entry { display: grid; grid-template-columns: 150px 1fr; gap: 1rem; margin: 1.5rem 0; align-items: start; }
+  .publication-entry img { width: 150px; max-width: 100%; border-radius: 4px; }
+  .publication-entry h3 { margin: 0 0 .35rem; font-size: 1.05rem; line-height: 1.3; }
+  .publication-entry p { margin: .25rem 0; }
+  .publication-links a { margin-right: .75rem; }
+  @media (max-width: 640px) {
+    .publication-entry { grid-template-columns: 1fr; }
+    .publication-entry img { width: 100%; max-width: 260px; }
+  }
+</style>
+
+<h2>Reasoning and RL</h2>
+<div class="publication-list">
+  <div class="publication-entry">
+    <img src="/images/tpo.png" alt="Test-Time Preference Optimization thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2501.12895">Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback</a></h3>
+      <p><strong>Yafu Li</strong>, Xuyang Hu, Xiaoye Qu, Linjie Li, Yu Cheng</p>
+      <p><em><strong>ICML</strong>, 2025</em></p>
+      <p class="publication-links"><a href="https://github.com/yafuly/TPO">Code</a><a href="https://arxiv.org/abs/2501.12895">Paper</a></p>
+      <p>Aligning LLMs at test time via textual reward.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/luffy.jpg" alt="Learning to Reason under Off-Policy Guidance thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2504.14945">Learning to Reason under Off-Policy Guidance</a></h3>
+      <p>Jianhao Yan<sup>*</sup>, <strong>Yafu Li</strong><sup>*†</sup>, Zican Hu, Zhi Wang, Ganqu Cui, Xiaoye Qu, Yu Cheng, Yue Zhang</p>
+      <p><em><strong>NeurIPS</strong>, 2025</em></p>
+      <p class="publication-links"><a href="https://github.com/ElliottYan/LUFFY">Code</a><a href="https://arxiv.org/abs/2504.14945">Paper</a></p>
+      <p>Boosting reasoning performance using off-policy guidance.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/exgrpo.png" alt="ExGRPO thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2510.02245">ExGRPO: Learning to Reason from Experience</a></h3>
+      <p>Runzhe Zhan, <strong>Yafu Li</strong><sup>†</sup>, Zhi Wang, Xiaoye Qu, Dongrui Liu, Jing Shao, Derek F. Wong, Yu Cheng</p>
+      <p><em><strong>ICLR</strong>, 2026</em></p>
+      <p class="publication-links"><a href="https://github.com/ElliottYan/LUFFY/tree/main/ExGRPO">Code</a><a href="https://arxiv.org/abs/2510.02245">Paper</a></p>
+      <p>Boosting reasoning performance with the model's own experience.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/diver.png" alt="Diversity-Incentivized Exploration thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2509.26209">Diversity-Incentivized Exploration for Versatile Reasoning</a></h3>
+      <p>Zican Hu, Shilin Zhang, <strong>Yafu Li</strong><sup>†</sup>, Jianhao Yan, Xuyang Hu, Leyang Cui, Xiaoye Qu, Chunlin Chen, Yu Cheng, Zhi Wang</p>
+      <p><em><strong>ICLR</strong>, 2026</em></p>
+      <p class="publication-links"><a href="https://github.com/NJU-RL/DIVER">Code</a><a href="https://arxiv.org/abs/2509.26209">Paper</a></p>
+      <p>Encouraging global exploration.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/canon.png" alt="Conditional Advantage Estimation thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2509.23962">Conditional Advantage Estimation for Reinforcement Learning in Large Reasoning Models</a></h3>
+      <p>Guanxu Chen, <strong>Yafu Li</strong><sup>†</sup>, Yuxian Jiang, Chen Qian, Qihan Ren, Jingyi Yang, Yu Cheng, Dongrui Liu, Jing Shao</p>
+      <p><em><strong>ICLR</strong>, 2026</em></p>
+      <p class="publication-links"><a href="https://github.com/biuboomc/CANON">Code</a><a href="https://arxiv.org/abs/2509.23962">Paper</a></p>
+      <p>Digging implicit signals via group comparison.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/efficient_lrm_survey.png" alt="Efficient reasoning survey thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2503.21614">A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond</a></h3>
+      <p>Xiaoye Qu<sup>*†</sup>, <strong>Yafu Li</strong><sup>*†</sup>, Zhaochen Su, Weigao Sun, Jianhao Yan, Dongrui Liu, Ganqu Cui, Daizong Liu, Shuxian Liang, Junxian He, Peng Li, Wei Wei, Jing Shao, Chaochao Lu, Yue Zhang, Xian-Sheng Hua, Bowen Zhou, Yu Cheng</p>
+      <p><em>preprint</em></p>
+      <p class="publication-links"><a href="https://github.com/XiaoYee/Awesome_Efficient_LRM_Reasoning">Code</a><a href="https://arxiv.org/abs/2503.21614">Paper</a></p>
+      <p>A survey of efficient reasoning for large reasoning models.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/trm.png" alt="Complex reasoning framework thumbnail">
+    <div>
+      <h3><a href="https://www.arxiv.org/abs/2602.08498">Characterizing, Evaluating, and Optimizing Complex Reasoning</a></h3>
+      <p>Haoran Zhang, <strong>Yafu Li</strong><sup>†</sup>, Zhi Wang, Zhilin Wang, Shunkai Zhang, Xiaoye Qu, Yu Cheng</p>
+      <p><em>preprint</em></p>
+      <p class="publication-links"><a href="https://github.com/zzzhr97/TRM">Code</a><a href="https://www.arxiv.org/abs/2602.08498">Paper</a></p>
+      <p>A framework for robust and scalable evaluation for complex reasoning.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/mathif.jpg" alt="Instruction following in reasoning models thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2505.14810">Scaling Reasoning, Losing Control: Evaluating Instruction Following in Large Reasoning Models</a></h3>
+      <p>Tingchen Fu, <strong>Yafu Li</strong><sup>†</sup>, Jiawei Gu, Xiaoye Qu, Yu Cheng</p>
+      <p><em>ACL 2026</em></p>
+      <p class="publication-links"><a href="https://github.com/tingchenfu/mathif">Code</a><a href="https://arxiv.org/abs/2505.14810">Paper</a></p>
+      <p>A tension between scaling up reasoning capacity and maintaining controllability.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/aft.jpg" alt="Aggregation Fine-Tuning thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2501.11877">From Drafts to Answers: Unlocking LLM Potential via Aggregation Fine-Tuning</a></h3>
+      <p><strong>Yafu Li</strong><sup>*</sup>, Zhilin Wang<sup>*</sup>, Tingchen Fu, Ganqu Cui, Sen Yang, Yu Cheng</p>
+      <p><em>ACL 2026 Findings</em></p>
+      <p class="publication-links"><a href="https://github.com/Linzwcs/AFT">Code</a><a href="https://arxiv.org/abs/2501.11877">Paper</a></p>
+      <p>Training models to aggregate multiple responses.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/mosa.png" alt="Multi-LLM Collaborative Search thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2502.18873">Multi-LLM Collaborative Search for Complex Problem Solving</a></h3>
+      <p>Sen Yang, <strong>Yafu Li</strong><sup>†</sup>, Wai Lam, Yu Cheng</p>
+      <p><em>ACL 2026 Findings</em></p>
+      <p class="publication-links"><a href="https://arxiv.org/abs/2502.18873">Paper</a></p>
+      <p>Aggregate multiple agents for complex reasoning.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Trustworthy AI</h2>
+<div class="publication-list">
+  <div class="publication-entry">
+    <img src="/images/specbench.jpg" alt="Specification alignment thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2509.14760">Reasoning over Boundaries: Enhancing Specification Alignment via Test-time Deliberation</a></h3>
+      <p>Haoran Zhang, <strong>Yafu Li</strong><sup>†</sup>, Xuyang Hu, Dongrui Liu, Zhilin Wang, Bo Li, Yu Cheng</p>
+      <p><em>preprint</em></p>
+      <p class="publication-links"><a href="https://github.com/zzzhr97/SpecBench">Code</a><a href="https://arxiv.org/abs/2509.14760">Paper</a></p>
+      <p>Reasoning over safety and behavioral boundaries before answering.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/unveil.jpg" alt="Attractor cycles in LLMs thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2502.15208">Unveiling Attractor Cycles in Large Language Models: A Dynamical Systems View of Successive Paraphrasing</a></h3>
+      <p>Zhilin Wang<sup>*</sup>, <strong>Yafu Li</strong><sup>*†</sup>, Jianhao Yan, Yu Cheng, Yue Zhang</p>
+      <p><em><strong>ACL</strong>, 2025</em></p>
+      <p class="publication-links"><a href="https://arxiv.org/abs/2502.15208">Paper</a></p>
+      <p>Unveiling attractor cycles in LLMs through dynamical systems analysis.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/deepfaketextdetect.png" alt="MAGE thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2305.13242">MAGE: Machine-generated Text Detection in the Wild</a></h3>
+      <p><strong>Yafu Li</strong>, Qintong Li, Leyang Cui, Wei Bi, Longyue Wang, Linyi Yang, Shuming Shi, Yue Zhang</p>
+      <p><em><strong>ACL</strong>, 2024</em></p>
+      <p class="publication-links"><a href="https://github.com/yafuly/MAGE">Code</a><a href="https://arxiv.org/abs/2305.13242">Paper</a></p>
+      <p>Assessing the proficiency of machine-generated text detectors amidst real-world scenarios.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/siren.jpg" alt="Hallucination survey thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2309.01219">Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models</a></h3>
+      <p>Yue Zhang, <strong>Yafu Li</strong>, Leyang Cui, Deng Cai, Lemao Liu, Tingchen Fu, Xinting Huang, Enbo Zhao, Yu Zhang, Yulong Chen, Longyue Wang, Anh Tuan Luu, Wei Bi, Freda Shi, Shuming Shi</p>
+      <p><em><strong>Computational Linguistics</strong></em></p>
+      <p class="publication-links"><a href="https://github.com/hillzhang1999/llm-hallucination-survey">Code</a><a href="https://arxiv.org/abs/2309.01219">Paper</a></p>
+      <p>A survey of hallucination in LLMs.</p>
+    </div>
+  </div>
+</div>
+
+<h2>Multilinguality</h2>
+<div class="publication-list">
+  <div class="publication-entry">
+    <img src="/images/llm_trans.jpg" alt="Translationese in LLMs thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2503.04369">Lost in Literalism: How Supervised Training Shapes Translationese in LLMs</a></h3>
+      <p><strong>Yafu Li</strong><sup>*</sup>, Ronghao Zhang<sup>*</sup>, Zhilin Wang, Huajiang Zhang, Leyang Cui, Yongjing Yin, Tong Xiao, Yue Zhang</p>
+      <p><em><strong>ACL</strong>, 2025</em></p>
+      <p class="publication-links"><a href="https://github.com/yafuly/LLM_Translationese">Code</a><a href="https://arxiv.org/abs/2503.04369">Paper</a></p>
+      <p>A systematic study of the origin of translationese in LLMs and mitigation methods.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/syn_gen.jpg" alt="Syntactic guidance thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2306.11485">Explicit Syntactic Guidance for Neural Text Generation</a></h3>
+      <p><strong>Yafu Li</strong>, Leyang Cui, Jianhao Yan, Yongjing Yin, Wei Bi, Shuming Shi, Yue Zhang</p>
+      <p><em><strong>ACL</strong>, 2023, <strong>Best Paper Nomination (1.6%)</strong></em></p>
+      <p class="publication-links"><a href="https://github.com/yafuly/SyntaxGen">Code</a><a href="https://arxiv.org/abs/2306.11485">Paper</a></p>
+      <p>A neural symbolic method that guides generation with rules.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/mgmo.jpg" alt="Multi-Granularity Optimization thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2210.11017">Multi-Granularity Optimization for Non-Autoregressive Translation</a></h3>
+      <p><strong>Yafu Li</strong>, Leyang Cui, Yongjing Yin, Yue Zhang</p>
+      <p><em><strong>EMNLP</strong>, 2022</em></p>
+      <p class="publication-links"><a href="https://github.com/yafuly/mgmo-nat">Code</a><a href="https://arxiv.org/abs/2210.11017">Paper</a></p>
+      <p>Optimizing non-autoregressive translation with multi-granularity policy gradient.</p>
+    </div>
+  </div>
+
+  <div class="publication-entry">
+    <img src="/images/cg.jpg" alt="Compositional generalization thumbnail">
+    <div>
+      <h3><a href="https://arxiv.org/abs/2105.14802v1">On Compositional Generalization of Neural Machine Translation</a></h3>
+      <p><strong>Yafu Li</strong>, Yongjing Yin, Yulong Chen, Yue Zhang</p>
+      <p><em><strong>ACL</strong>, 2021, <strong>Oral</strong></em></p>
+      <p class="publication-links"><a href="https://github.com/yafuly/CoGnition">Code</a><a href="https://arxiv.org/abs/2105.14802v1">Paper</a></p>
+      <p>Neural machine translation suffers poor compositionality.</p>
+    </div>
+  </div>
+</div>
