@@ -7,7 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on scalable reasoning and alignment for large language models, spanning reinforcement learning with verifiable rewards (RLVR), off-policy training, inference-time optimization, and rigorous evaluation.
+I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling.
+
+**Reinforcement Learning**
+
+- **Policy:** [LUFFY](https://arxiv.org/abs/2504.14945), NeurIPS 2025; [ExGRPO](https://arxiv.org/abs/2510.02245), ICLR 2026
+- **Reward:** [TRM](https://www.arxiv.org/abs/2602.08498), ICML 2026; [DIVER](https://arxiv.org/abs/2509.26209), ICLR 2026; [CANON](https://arxiv.org/abs/2509.23962), ICLR 2026; [SIREN](https://arxiv.org/abs/2509.25133)
+- **System:** [SU-01](https://arxiv.org/abs/2605.13301)
+- **Evaluation:** [SpecBench](https://arxiv.org/abs/2509.14760), ICML 2026; [MathIF](https://arxiv.org/abs/2505.14810), ACL 2026
+
+**Test-Time Scaling**
+
+- [TPO](https://arxiv.org/abs/2501.12895), ICML 2025
+- [AFT](https://arxiv.org/abs/2501.11877), ACL 2026
+- [MoSA](https://arxiv.org/abs/2502.18873), ACL 2026
 
 I received my Ph.D. in Computer Science through a joint program between Zhejiang University and Westlake University, advised by [Prof. Yue Zhang](https://frcchang.github.io/). Prior to that, I earned my M.Sc. in Artificial Intelligence from the University of Edinburgh under the supervision of [Prof. Alex Lascarides](https://homepages.inf.ed.ac.uk/alex/), and my B.Eng. from Wuhan University. During my Ph.D., I interned at Tencent AI Lab, working on natural language generation and trustworthy AI. I also previously worked at Huawei Noah's Ark Lab, developing neural machine translation systems for cloud and edge deployment.
 
