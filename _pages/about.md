@@ -27,6 +27,7 @@ I received my Ph.D. in Computer Science through a joint program between Zhejiang
 
 <h2 id="talks">Talks & Lectures</h2>
 
+- April 7, 2026: Lecture at **The Chinese University of Hong Kong**, *An Introduction of Reasoning and GRPO*
 - October 27, 2025: Invited lecture at **Southern University of Science and Technology**, *On the Evolution of Reasoning Abilities in Large Language Models*
 - September 4, 2025: Invited lecture at **Tencent**, *Evolving Reasoning Abilities of LLMs: RLVR, Off-Policy Learning, and Test-Time Reinforcement Learning*
 - August 12, 2025: Invited speaker at **CCL 2025** Forum on Large Model Reasoning and Reinforcement Learning
