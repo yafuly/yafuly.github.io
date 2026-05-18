@@ -35,8 +35,7 @@ I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working w
 
   **Reinforcement Learning**
   - **Policy:** LUFFY [(NeurIPS 2025)](https://arxiv.org/abs/2504.14945); ExGRPO [(ICLR 2026)](https://arxiv.org/abs/2510.02245)
-  - **Reward:** TRM [(ICML 2026)](https://www.arxiv.org/abs/2602.08498); DIVER [(ICLR 2026)](https://arxiv.org/abs/2509.26209); CANON [(ICLR 2026)]
-(https://arxiv.org/abs/2509.23962)
+  - **Reward:** TRM [(ICML 2026)](https://www.arxiv.org/abs/2602.08498); DIVER [(ICLR 2026)](https://arxiv.org/abs/2509.26209); CANON [(ICLR 2026)](https://arxiv.org/abs/2509.23962)
 
   **Test-Time Scaling**: TPO [(ICML 2025)](https://arxiv.org/abs/2501.12895); AFT [(ACL 2026)](https://arxiv.org/abs/2501.11877); MoSA [(ACL 2026)](https://arxiv.org/abs/2502.18873)
 
