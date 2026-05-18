@@ -7,10 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling:
-
-
- <style>
+<style>
   .research-focus {
     margin-left: 2.5em;
   }
@@ -28,6 +25,9 @@ I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working w
     margin-bottom: 0.05em;
   }
   </style>
+
+
+I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling:
 
   <div class="research-focus" markdown="1">
 
