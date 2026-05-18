@@ -10,19 +10,41 @@ redirect_from:
 I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling:
 
 
-<div style="margin-left: 2.5em;" markdown="1">
+ <style>
+  .research-focus {
+    margin-left: 2.5em;
+  }
 
-**System**: SU-01 [(Technical Report, 2026)](https://simplified-reasoning.github.io/SU-01)
+  .research-focus p {
+    margin: 0.25em 0;
+  }
 
-**Reinforcement Learning**
-- **Policy:** LUFFY [(NeurIPS 2025)](https://arxiv.org/abs/2504.14945); ExGRPO [(ICLR 2026)](https://arxiv.org/abs/2510.02245)
-- **Reward:** TRM [(ICML 2026)](https://www.arxiv.org/abs/2602.08498); DIVER [(ICLR 2026)](https://arxiv.org/abs/2509.26209); CANON [(ICLR 2026)](https://arxiv.org/abs/2509.23962)
+  .research-focus ul {
+    margin-top: 0.15em;
+    margin-bottom: 0.35em;
+  }
 
-**Test-Time Scaling**: TPO [(ICML 2025)](https://arxiv.org/abs/2501.12895); AFT [(ACL 2026)](https://arxiv.org/abs/2501.11877); MoSA [(ACL 2026)](https://arxiv.org/abs/2502.18873)
+  .research-focus li {
+    margin-bottom: 0.05em;
+  }
+  </style>
 
-**Evaluation**: SpecBench [(ICML 2026)](https://arxiv.org/abs/2509.14760); MathIF [(ACL 2026)](https://arxiv.org/abs/2505.14810)
+  <div class="research-focus" markdown="1">
 
-</div>
+  **System**: SU-01 [(Technical Report, 2026)](https://simplified-reasoning.github.io/SU-01)
+
+  **Reinforcement Learning**
+  - **Policy:** LUFFY [(NeurIPS 2025)](https://arxiv.org/abs/2504.14945); ExGRPO [(ICLR 2026)](https://arxiv.org/abs/2510.02245)
+  - **Reward:** TRM [(ICML 2026)](https://www.arxiv.org/abs/2602.08498); DIVER [(ICLR 2026)](https://arxiv.org/abs/2509.26209); CANON [(ICLR 2026)]
+  (https://arxiv.org/abs/2509.23962)
+
+  **Test-Time Scaling**: TPO [(ICML 2025)](https://arxiv.org/abs/2501.12895); AFT [(ACL 2026)](https://arxiv.org/abs/2501.11877); MoSA [(ACL 2026)]
+  (https://arxiv.org/abs/2502.18873)
+
+  **Evaluation**: SpecBench [(ICML 2026)](https://arxiv.org/abs/2509.14760); MathIF [(ACL 2026)](https://arxiv.org/abs/2505.14810)
+
+  </div>
+
 
 
 I received my Ph.D. in Computer Science through a joint program between Zhejiang University and Westlake University, advised by [Prof. Yue Zhang](https://frcchang.github.io/). Prior to that, I earned my M.Sc. in Artificial Intelligence from the University of Edinburgh under the supervision of [Prof. Alex Lascarides](https://homepages.inf.ed.ac.uk/alex/), and my B.Eng. from Wuhan University. During my Ph.D., I interned at Tencent AI Lab, working on natural language generation and trustworthy AI. I also previously worked at Huawei Noah's Ark Lab, developing neural machine translation systems for cloud and edge deployment.
