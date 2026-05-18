@@ -10,15 +10,21 @@ redirect_from:
 <style>
   .research-focus {
     margin-left: 2.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .research-intro {
+    margin-bottom: 0.15em;
   }
 
   .research-focus p {
-    margin: 0.25em 0;
+    margin: 0.2em 0;
   }
 
   .research-focus ul {
     margin-top: 0.15em;
-    margin-bottom: 0.35em;
+    margin-bottom: 0.25em;
   }
 
   .research-focus li {
@@ -27,20 +33,23 @@ redirect_from:
   </style>
 
 
-I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling:
-  <div class="research-focus" markdown="1">
+<p class="research-intro">I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with <a href="https://ych133.github.io/">Prof. Yu Cheng</a>, and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling:</p>
 
-  **System**: SU-01 [(Technical Report, 2026)](https://simplified-reasoning.github.io/SU-01)
+<div class="research-focus">
 
-  **Reinforcement Learning**
-  - **Policy:** LUFFY [(NeurIPS 2025)](https://arxiv.org/abs/2504.14945); ExGRPO [(ICLR 2026)](https://arxiv.org/abs/2510.02245)
-  - **Reward:** TRM [(ICML 2026)](https://www.arxiv.org/abs/2602.08498); DIVER [(ICLR 2026)](https://arxiv.org/abs/2509.26209); CANON [(ICLR 2026)](https://arxiv.org/abs/2509.23962)
+<p><strong>System</strong>: SU-01 <a href="https://simplified-reasoning.github.io/SU-01">(Technical Report, 2026)</a></p>
 
-  **Test-Time Scaling**: TPO [(ICML 2025)](https://arxiv.org/abs/2501.12895); AFT [(ACL 2026)](https://arxiv.org/abs/2501.11877); MoSA [(ACL 2026)](https://arxiv.org/abs/2502.18873)
+<p><strong>Reinforcement Learning</strong></p>
+<ul>
+  <li><strong>Policy:</strong> LUFFY <a href="https://arxiv.org/abs/2504.14945">(NeurIPS 2025)</a>; ExGRPO <a href="https://arxiv.org/abs/2510.02245">(ICLR 2026)</a></li>
+  <li><strong>Reward:</strong> TRM <a href="https://www.arxiv.org/abs/2602.08498">(ICML 2026)</a>; DIVER <a href="https://arxiv.org/abs/2509.26209">(ICLR 2026)</a>; CANON <a href="https://arxiv.org/abs/2509.23962">(ICLR 2026)</a></li>
+</ul>
 
-  **Evaluation**: SpecBench [(ICML 2026)](https://arxiv.org/abs/2509.14760); MathIF [(ACL 2026)](https://arxiv.org/abs/2505.14810)
+<p><strong>Test-Time Scaling</strong>: TPO <a href="https://arxiv.org/abs/2501.12895">(ICML 2025)</a>; AFT <a href="https://arxiv.org/abs/2501.11877">(ACL 2026)</a>; MoSA <a href="https://arxiv.org/abs/2502.18873">(ACL 2026)</a></p>
 
-  </div>
+<p><strong>Evaluation</strong>: SpecBench <a href="https://arxiv.org/abs/2509.14760">(ICML 2026)</a>; MathIF <a href="https://arxiv.org/abs/2505.14810">(ACL 2026)</a></p>
+
+</div>
 
 
 
