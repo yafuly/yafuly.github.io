@@ -37,7 +37,7 @@ redirect_from:
 
 <div class="research-focus">
 
-<p><strong>System</strong>: SU-01 <a href="https://simplified-reasoning.github.io/SU-01">(Technical Report, 2026)</a></p>
+<p><strong>System</strong>: SU-01, a 30B-AB model achieving gold-medal-level performance on IMO 2025/USAMO 2026 and IPhO 2024/2025 with a simple and unified recipe <a href="https://simplified-reasoning.github.io/SU-01">(Technical Report, 2026)</a>.</p>
 
 <p><strong>Reinforcement Learning</strong></p>
 <ul>
