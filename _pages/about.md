@@ -28,7 +28,6 @@ redirect_from:
 
 
 I am a Postdoctoral Researcher at The Chinese University of Hong Kong, working with [Prof. Yu Cheng](https://ych133.github.io/), and a Researcher at Shanghai AI Laboratory. My research focuses on building strong reasoning systems via reinforcement learning and test-time scaling:
-
   <div class="research-focus" markdown="1">
 
   **System**: SU-01 [(Technical Report, 2026)](https://simplified-reasoning.github.io/SU-01)
