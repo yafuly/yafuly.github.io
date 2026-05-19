@@ -154,6 +154,9 @@
   }
 
   img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 200px;
     border-radius: 4px;
 
@@ -170,6 +173,7 @@
   padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+  text-align: center;
 
   @include breakpoint($large) {
     display: block;
