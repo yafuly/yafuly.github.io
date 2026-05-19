@@ -1,6 +1,6 @@
 ---
 permalink: /
-# title: "Yafu Li"
+title: "Yafu Li (李雅夫)"
 author_profile: true
 redirect_from:
   - /about/
