@@ -53,7 +53,8 @@ redirect_from:
 
 
 
-I received my Ph.D. in Computer Science through a joint program between Zhejiang University and Westlake University, advised by [Prof. Yue Zhang](https://frcchang.github.io/). Prior to that, I earned my M.Sc. in Artificial Intelligence from the University of Edinburgh under the supervision of [Prof. Alex Lascarides](https://homepages.inf.ed.ac.uk/alex/), and my B.Eng. from Wuhan University. During my Ph.D., I interned at Tencent AI Lab, working on natural language generation and trustworthy AI. I also previously worked at Huawei Noah's Ark Lab, developing neural machine translation systems for cloud and edge deployment.
+I received my Ph.D. in Computer Science through a joint program between Zhejiang University and Westlake University, advised by [Prof. Yue Zhang](https://frcchang.github.io/). Prior to that, I earned my M.Sc. in Artificial Intelligence from the University of Edinburgh under the supervision of [Prof. Alex Lascarides](https://homepages.inf.ed.ac.uk/alex/), and my B.Eng. from Wuhan University. During my Ph.D., I interned at Tencent AI Lab, working on natural language generation and trustworthy AI.
+ <!-- I also previously worked at Huawei Noah's Ark Lab, developing neural machine translation systems for cloud and edge deployment. -->
 
 
 <h2 id="talks">Talks & Lectures</h2>
