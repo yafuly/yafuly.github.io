@@ -39,7 +39,7 @@ redirect_from:
 
 <p><strong>System</strong>: SU-01, a 30B-AB model achieving gold-medal-level performance on IMO 2025/USAMO 2026 and IPhO 2024/2025 with a simple and unified recipe <a href="https://simplified-reasoning.github.io/SU-01">(Technical Report, 2026)</a>.</p>
 
-<p><strong>Reinforcement Learning</strong></p>
+<p><strong>Reinforcement Learning:</strong></p>
 <ul>
   <li><strong>Policy:</strong> LUFFY <a href="https://arxiv.org/abs/2504.14945">(NeurIPS 2025)</a>; ExGRPO <a href="https://arxiv.org/abs/2510.02245">(ICLR 2026)</a></li>
   <li><strong>Reward:</strong> TRM <a href="https://www.arxiv.org/abs/2602.08498">(ICML 2026)</a>; DIVER <a href="https://arxiv.org/abs/2509.26209">(ICLR 2026)</a>; CANON <a href="https://arxiv.org/abs/2509.23962">(ICLR 2026)</a></li>
