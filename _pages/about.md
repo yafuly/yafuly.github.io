@@ -30,6 +30,33 @@ redirect_from:
   .research-focus li {
     margin-bottom: 0.05em;
   }
+
+  .featured-paper {
+    margin: 0.8rem 0 1.2rem 2.5em;
+  }
+
+  .featured-paper p {
+    margin: 0.35em 0;
+  }
+
+  .featured-paper img {
+    display: block;
+    width: 100%;
+    margin-top: 0.6rem;
+    border: 1px solid #dbe3ef;
+    border-radius: 8px;
+  }
+
+  .featured-paper-links a {
+    margin-right: 0.75rem;
+  }
+
+  @media (max-width: 640px) {
+    .research-focus,
+    .featured-paper {
+      margin-left: 0;
+    }
+  }
   </style>
 
 
@@ -47,8 +74,18 @@ redirect_from:
 
 <p><strong>Test-Time Scaling</strong>: TPO <a href="https://arxiv.org/abs/2501.12895">(ICML 2025)</a>; AFT <a href="https://arxiv.org/abs/2501.11877">(ACL 2026)</a>; MoSA <a href="https://arxiv.org/abs/2502.18873">(ACL 2026)</a></p>
 
-<p><strong>Evaluation</strong>: SpecBench <a href="https://arxiv.org/abs/2509.14760">(ICML 2026)</a>; MathIF <a href="https://arxiv.org/abs/2505.14810">(ACL 2026)</a></p>
+<p><strong>Evaluation</strong>: &pi;-Bench <a href="https://arxiv.org/abs/2605.14678">(Technical Report, 2026)</a>; SpecBench <a href="https://arxiv.org/abs/2509.14760">(ICML 2026)</a>; MathIF <a href="https://arxiv.org/abs/2505.14810">(ACL 2026)</a></p>
 
+</div>
+
+<div class="featured-paper">
+  <p><strong>&pi;-Bench</strong> evaluates proactive personal assistant agents in long-horizon workflows with hidden intents, cross-session dependencies, and separated proactivity/completeness metrics across 100 multi-turn tasks and 5 user personas.</p>
+  <p class="featured-paper-links">
+    <a href="https://simplified-reasoning.github.io/Pi-Bench">Project</a>
+    <a href="https://arxiv.org/abs/2605.14678">Paper</a>
+    <a href="https://github.com/Simplified-Reasoning/Pi-Bench">Code</a>
+  </p>
+  <img src="/images/pi-bench-results.svg" alt="Pi-Bench overall results comparing proactive intent recovery and task completion">
 </div>
 
 
