@@ -1,151 +1,117 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1152" role="img" aria-labelledby="title desc">
   <title id="title">π-Bench overall performance</title>
-  <desc id="desc">Scatter plot comparing average task completion and proactive intent recovery, with Claude Opus 4.6 details.</desc>
+  <desc id="desc">Overall performance scatter plot comparing average task completion and proactive intent recovery, with a Claude Opus 4.6 details tooltip.</desc>
   <defs>
-    <filter id="shadow" x="-35%" y="-35%" width="170%" height="170%">
-      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.14"/>
-    </filter>
     <filter id="pointShadow" x="-90%" y="-90%" width="280%" height="280%">
-      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.22"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.18"/>
     </filter>
     <style>
       .bg { fill: #ffffff; }
-      .panel { fill: #fbfdff; stroke: #dbe3ef; stroke-width: 1.5; }
-      .plot { fill: #fcfdff; stroke: #b8c4d3; stroke-width: 1.4; }
-      .grid { stroke: #dbe3ef; stroke-width: 1; }
-      .axis { stroke: #aebccd; stroke-width: 1.8; }
-      .diag { stroke: #94a3b8; stroke-width: 2.8; stroke-dasharray: 12 12; stroke-linecap: round; }
-      .tick, .label, .point-label, .card-label, .domain { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      .tick { fill: #5f6b7d; font-size: 22px; font-weight: 800; }
-      .label { fill: #151a24; font-size: 24px; font-weight: 900; }
-      .point-label { fill: #515c70; font-size: 19px; font-weight: 900; paint-order: stroke; stroke: #ffffff; stroke-width: 5px; stroke-linejoin: round; }
-      .point-label.active { fill: #151a24; font-size: 21px; }
-      .point { stroke: #ffffff; stroke-width: 4; filter: url(#pointShadow); }
-      .point.active { stroke: #151a24; stroke-width: 5; }
-      .card-title { fill: #151a24; font-size: 27px; font-weight: 900; }
-      .card-label { fill: #64748b; font-size: 20px; font-weight: 850; }
-      .card-value { fill: #111827; font-family: Georgia, "Times New Roman", serif; font-size: 42px; font-weight: 900; }
-      .card-small { fill: #64748b; font-size: 18px; font-weight: 850; }
-      .domain { fill: #64748b; font-size: 20px; font-weight: 850; }
-      .score { fill: #111827; font-size: 21px; font-weight: 900; }
-      .rule { stroke: #dbe3ef; stroke-width: 1.5; }
+      .title { fill: #171c25; font-family: Georgia, "Times New Roman", serif; font-size: 48px; font-weight: 900; }
+      .panel { fill: #fbfdff; stroke: #d8e1ee; stroke-width: 1.5; }
+      .plot { fill: #fcfdff; stroke: #b7c3d2; stroke-width: 1.5; }
+      .grid { stroke: #dbe3ef; stroke-width: 1.1; }
+      .axis { stroke: #aebccd; stroke-width: 1.9; }
+      .diag { stroke: #94a3b8; stroke-width: 3.2; stroke-dasharray: 14 16; stroke-linecap: round; }
+      .tick, .axis-label, .point-label, .tooltip-text { font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .tick { fill: #516075; font-size: 24px; font-weight: 850; }
+      .axis-label { fill: #151a24; font-size: 26px; font-weight: 900; }
+      .point { stroke: #ffffff; stroke-width: 5; filter: url(#pointShadow); }
+      .point.active { stroke: #151a24; stroke-width: 6; }
+      .point-label { fill: #4e5a6d; font-size: 21px; font-weight: 900; paint-order: stroke; stroke: #ffffff; stroke-width: 6px; stroke-linejoin: round; }
+      .point-label.faint { fill: #e5e7eb; stroke: #ffffff; opacity: 0.6; }
+      .tooltip { fill: #ffffff; fill-opacity: 0.96; stroke: #aebccd; stroke-width: 1.5; }
+      .tooltip-title { fill: #111827; font-size: 25px; font-weight: 900; }
+      .tooltip-line { fill: #4e5a6d; font-size: 24px; font-weight: 750; }
     </style>
   </defs>
 
-  <rect class="bg" width="1600" height="720"/>
+  <rect class="bg" width="1600" height="1152"/>
+  <text class="title" x="24" y="58">Overall Performance</text>
 
-  <rect class="panel" x="18" y="12" width="1168" height="696" rx="9"/>
-  <rect class="panel" x="1210" y="12" width="374" height="696" rx="9"/>
+  <rect class="panel" x="20" y="95" width="1560" height="960" rx="10"/>
 
-  <g id="scatter">
-    <rect class="plot" x="110" y="60" width="980" height="560"/>
+  <g id="plot">
+    <rect class="plot" x="150" y="150" width="1350" height="775"/>
 
-    <g id="x-grid">
-      <line class="grid" x1="110" y1="60" x2="110" y2="620"/>
-      <line class="grid" x1="355" y1="60" x2="355" y2="620"/>
-      <line class="grid" x1="600" y1="60" x2="600" y2="620"/>
-      <line class="grid" x1="845" y1="60" x2="845" y2="620"/>
-      <line class="grid" x1="1090" y1="60" x2="1090" y2="620"/>
+    <g id="grid">
+      <line class="grid" x1="150" y1="150" x2="150" y2="925"/>
+      <line class="grid" x1="487.5" y1="150" x2="487.5" y2="925"/>
+      <line class="grid" x1="825" y1="150" x2="825" y2="925"/>
+      <line class="grid" x1="1162.5" y1="150" x2="1162.5" y2="925"/>
+      <line class="grid" x1="1500" y1="150" x2="1500" y2="925"/>
+
+      <line class="grid" x1="150" y1="925" x2="1500" y2="925"/>
+      <line class="grid" x1="150" y1="795.8" x2="1500" y2="795.8"/>
+      <line class="grid" x1="150" y1="666.7" x2="1500" y2="666.7"/>
+      <line class="grid" x1="150" y1="537.5" x2="1500" y2="537.5"/>
+      <line class="grid" x1="150" y1="408.3" x2="1500" y2="408.3"/>
+      <line class="grid" x1="150" y1="279.2" x2="1500" y2="279.2"/>
+      <line class="grid" x1="150" y1="150" x2="1500" y2="150"/>
     </g>
-    <g id="y-grid">
-      <line class="grid" x1="110" y1="620" x2="1090" y2="620"/>
-      <line class="grid" x1="110" y1="526.7" x2="1090" y2="526.7"/>
-      <line class="grid" x1="110" y1="433.3" x2="1090" y2="433.3"/>
-      <line class="grid" x1="110" y1="340" x2="1090" y2="340"/>
-      <line class="grid" x1="110" y1="246.7" x2="1090" y2="246.7"/>
-      <line class="grid" x1="110" y1="153.3" x2="1090" y2="153.3"/>
-      <line class="grid" x1="110" y1="60" x2="1090" y2="60"/>
-    </g>
 
-    <line class="axis" x1="110" y1="620" x2="1090" y2="620"/>
-    <line class="axis" x1="110" y1="60" x2="110" y2="620"/>
-    <line class="diag" x1="110" y1="433.3" x2="1090" y2="60"/>
+    <line class="axis" x1="150" y1="925" x2="1500" y2="925"/>
+    <line class="axis" x1="150" y1="150" x2="150" y2="925"/>
+    <line class="diag" x1="150" y1="666.7" x2="1500" y2="150"/>
 
     <g class="tick">
-      <text x="110" y="654" text-anchor="middle">50</text>
-      <text x="355" y="654" text-anchor="middle">55</text>
-      <text x="600" y="654" text-anchor="middle">60</text>
-      <text x="845" y="654" text-anchor="middle">65</text>
-      <text x="1090" y="654" text-anchor="middle">70</text>
-      <text x="88" y="626" text-anchor="end">40</text>
-      <text x="88" y="533" text-anchor="end">45</text>
-      <text x="88" y="439" text-anchor="end">50</text>
-      <text x="88" y="346" text-anchor="end">55</text>
-      <text x="88" y="253" text-anchor="end">60</text>
-      <text x="88" y="159" text-anchor="end">65</text>
-      <text x="88" y="66" text-anchor="end">70</text>
+      <text x="150" y="972" text-anchor="middle">50</text>
+      <text x="487.5" y="972" text-anchor="middle">55</text>
+      <text x="825" y="972" text-anchor="middle">60</text>
+      <text x="1162.5" y="972" text-anchor="middle">65</text>
+      <text x="1500" y="972" text-anchor="middle">70</text>
+
+      <text x="122" y="932" text-anchor="end">40</text>
+      <text x="122" y="803" text-anchor="end">45</text>
+      <text x="122" y="674" text-anchor="end">50</text>
+      <text x="122" y="545" text-anchor="end">55</text>
+      <text x="122" y="415" text-anchor="end">60</text>
+      <text x="122" y="286" text-anchor="end">65</text>
+      <text x="122" y="157" text-anchor="end">70</text>
     </g>
 
-    <text class="label" x="600" y="694" text-anchor="middle">Average task completion, Comp (%)</text>
-    <text class="label" x="-340" y="45" transform="rotate(-90)" text-anchor="middle">Average proactive intent recovery, Proc (%)</text>
+    <text class="axis-label" x="825" y="1010" text-anchor="middle">Average task completion, Comp (%)</text>
+    <text class="axis-label" x="-537" y="61" transform="rotate(-90)" text-anchor="middle">Average proactive intent recovery, Proc (%)</text>
 
     <g id="points">
-      <circle class="point" cx="874.4" cy="116" r="10" fill="#2563eb"/>
-      <text class="point-label" x="888" y="96">GPT-5.4</text>
+      <circle class="point" cx="1203" cy="227.5" r="12" fill="#2563eb"/>
+      <text class="point-label faint" x="1223" y="214">GPT-5.4</text>
 
-      <circle class="point active" cx="972.4" cy="144" r="16" fill="#b45309"/>
-      <text class="point-label active" x="990" y="125">Claude Opus 4.6</text>
+      <circle class="point active" cx="1338" cy="279.2" r="13" fill="#b45309"/>
+      <text class="point-label faint" x="1360" y="246">Claude Opus 4.6</text>
 
-      <circle class="point" cx="800.9" cy="172" r="10" fill="#c2410c"/>
-      <text class="point-label" x="815" y="197">Qwen3.6 Plus</text>
+      <circle class="point" cx="1089.8" cy="305" r="12" fill="#c2410c"/>
+      <text class="point-label" x="1112" y="285">Qwen3.6 Plus</text>
 
-      <circle class="point" cx="776.4" cy="336.5" r="10" fill="#0891b2"/>
-      <text class="point-label" x="790" y="315">GLM-5.1</text>
+      <circle class="point" cx="1068" cy="449.7" r="12" fill="#0891b2"/>
+      <text class="point-label" x="1090" y="425">GLM-5.1</text>
 
-      <circle class="point" cx="600" cy="328.8" r="10" fill="#7c3aed"/>
-      <text class="point-label" x="615" y="355">MiniMax M2.7</text>
+      <circle class="point" cx="825" cy="522.1" r="12" fill="#7c3aed"/>
+      <text class="point-label" x="844" y="520">Gemini 3.1 Pro</text>
 
-      <circle class="point" cx="600" cy="300.1" r="10" fill="#0f766e"/>
-      <text class="point-label" x="615" y="306">Gemini 3.1 Pro</text>
+      <circle class="point" cx="825" cy="483.3" r="12" fill="#0f766e"/>
+      <text class="point-label" x="844" y="492">MiniMax M2.7</text>
 
-      <circle class="point" cx="492.2" cy="371.7" r="10" fill="#be123c"/>
-      <text class="point-label" x="507" y="400">DeepSeek V3.2</text>
+      <circle class="point" cx="676.5" cy="579.6" r="12" fill="#be123c"/>
+      <text class="point-label" x="696" y="616">DeepSeek V3.2</text>
 
-      <circle class="point" cx="678.4" cy="562.1" r="10" fill="#475569"/>
-      <text class="point-label" x="694" y="543">Kimi K2.5</text>
+      <circle class="point" cx="933" cy="844.9" r="12" fill="#475569"/>
+      <text class="point-label" x="952" y="820">Kimi K2.5</text>
 
-      <circle class="point" cx="212.9" cy="276.5" r="10" fill="#15803d"/>
-      <text class="point-label" x="228" y="303">Seed2.0 Pro</text>
+      <circle class="point" cx="291.8" cy="449.7" r="12" fill="#15803d"/>
+      <text class="point-label" x="313" y="486">Seed2.0 Pro</text>
     </g>
-  </g>
 
-  <g id="details">
-    <circle cx="1240" cy="45" r="10" fill="#b45309" stroke="#f5dbc4" stroke-width="5"/>
-    <text class="card-title" x="1260" y="53">Claude Opus 4.6</text>
-
-    <rect class="panel" x="1232" y="130" width="154" height="112" rx="7"/>
-    <rect class="panel" x="1400" y="130" width="154" height="112" rx="7"/>
-    <text class="card-label" x="1248" y="174">Avg Proc</text>
-    <text class="card-value" x="1248" y="218">65.5</text>
-    <text class="card-small" x="1330" y="218">+/- 1.4</text>
-    <text class="card-label" x="1416" y="174">Avg Comp</text>
-    <text class="card-value" x="1416" y="218">67.6</text>
-    <text class="card-small" x="1499" y="218">+/- 1.5</text>
-
-    <g class="domain">
-      <text x="1232" y="338">Researcher</text>
-      <text class="score" x="1562" y="338" text-anchor="end">Proc: 50.3</text>
-      <text class="score" x="1562" y="365" text-anchor="end">Comp: 74.5</text>
-      <line class="rule" x1="1232" y1="388" x2="1562" y2="388"/>
-
-      <text x="1232" y="430">Marketer</text>
-      <text class="score" x="1562" y="430" text-anchor="end">Proc: 75.0</text>
-      <text class="score" x="1562" y="457" text-anchor="end">Comp: 74.6</text>
-      <line class="rule" x1="1232" y1="480" x2="1562" y2="480"/>
-
-      <text x="1232" y="522">Pharmacist</text>
-      <text class="score" x="1562" y="522" text-anchor="end">Proc: 82.8</text>
-      <text class="score" x="1562" y="549" text-anchor="end">Comp: 68.6</text>
-      <line class="rule" x1="1232" y1="572" x2="1562" y2="572"/>
-
-      <text x="1232" y="614">Law Trainee</text>
-      <text class="score" x="1562" y="614" text-anchor="end">Proc: 45.7</text>
-      <text class="score" x="1562" y="641" text-anchor="end">Comp: 57.2</text>
-      <line class="rule" x1="1232" y1="664" x2="1562" y2="664"/>
-
-      <text x="1232" y="692">Financier</text>
-      <text class="score" x="1562" y="692" text-anchor="end">Proc: 73.8</text>
-      <text class="score" x="1562" y="716" text-anchor="end">Comp: 63.2</text>
+    <g id="tooltip">
+      <rect class="tooltip" x="1120" y="130" width="455" height="315" rx="6"/>
+      <text class="tooltip-text tooltip-title" x="1142" y="171">Claude Opus 4.6</text>
+      <text class="tooltip-text tooltip-line" x="1142" y="203">Overall: Proc 65.5 +/- 1.4; Comp 67.6</text>
+      <text class="tooltip-text tooltip-line" x="1142" y="235">+/- 1.5</text>
+      <text class="tooltip-text tooltip-line" x="1142" y="272">Researcher: Proc 50.3; Comp 74.5</text>
+      <text class="tooltip-text tooltip-line" x="1142" y="308">Marketer: Proc 75.0; Comp 74.6</text>
+      <text class="tooltip-text tooltip-line" x="1142" y="344">Pharmacist: Proc 82.8; Comp 68.6</text>
+      <text class="tooltip-text tooltip-line" x="1142" y="380">Law Trainee: Proc 45.7; Comp 57.2</text>
+      <text class="tooltip-text tooltip-line" x="1142" y="416">Financier: Proc 73.8; Comp 63.2</text>
     </g>
   </g>
 </svg>
