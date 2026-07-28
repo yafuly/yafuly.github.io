@@ -72,6 +72,6 @@ I received my Ph.D. in Computer Science through a joint program between Zhejiang
 
 <h2 id="service">Service</h2>
 
-- **Area Chair:** ACL 2025; EMNLP 2025; ACL 2026; EMNLP 2026; NeurIPS 2026; ACL ARR (February 2025, May 2025, January 2026, March 2026, May 2026)
-- **Conference Reviewer:** ACL, EMNLP, COLING, ACL ARR, IJCAI, NeurIPS, ICLR, ICML, CVPR
+- **Area Chair / Senior Program Committee:** ACL 2025; EMNLP 2025; ACL 2026; EMNLP 2026; NeurIPS 2026; AAAI 2027 (SPC); ACL ARR (February 2025, May 2025, January 2026, March 2026, May 2026)
+- **Conference Reviewer:** ACL, EMNLP, COLING, ACL ARR, IJCAI, NeurIPS, ICLR, ICML, CVPR, AAAI
 - **Journal Reviewer:** TMLR, JAIR, TACL, TASLP, TBD, TALLIP
