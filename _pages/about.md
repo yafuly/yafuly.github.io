@@ -65,6 +65,7 @@ I received my Ph.D. in Computer Science through a joint program between Zhejiang
 
 <h2 id="talks">Talks & Lectures</h2>
 
+- October 7, 2026: Talk at **Shanghai Jiao Tong University**, *From Verifiable Learning to Inference Scaling: Advances in Scientific Reasoning with Large Language Models*
 - April 7, 2026: Lecture at **The Chinese University of Hong Kong**, *An Introduction of Reasoning and GRPO*
 - October 27, 2025: Invited lecture at **Southern University of Science and Technology**, *On the Evolution of Reasoning Abilities in Large Language Models*
 - September 4, 2025: Invited lecture at **Tencent**, *Evolving Reasoning Abilities of LLMs: RLVR, Off-Policy Learning, and Test-Time Reinforcement Learning*
@@ -72,6 +73,6 @@ I received my Ph.D. in Computer Science through a joint program between Zhejiang
 
 <h2 id="service">Service</h2>
 
-- **Area Chair / Senior Program Committee:** ACL 2025; EMNLP 2025; ACL 2026; EMNLP 2026; NeurIPS 2026; AAAI 2027 (SPC); ACL ARR (February 2025, May 2025, January 2026, March 2026, May 2026)
+- **Area Chair / Senior Program Committee:** ACL 2025; EMNLP 2025; ACL 2026; EMNLP 2026; NeurIPS 2026; AAAI 2027 (SPC); COLING 2027; ACL ARR (February 2025, May 2025, January 2026, March 2026, May 2026, October 2026)
 - **Conference Reviewer:** ACL, EMNLP, COLING, ACL ARR, IJCAI, NeurIPS, ICLR, ICML, CVPR, AAAI
 - **Journal Reviewer:** TMLR, JAIR, TACL, TASLP, TBD, TALLIP
